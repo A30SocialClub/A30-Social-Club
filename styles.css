@@ -179,7 +179,7 @@ h1 em { color: var(--terracotta); font-weight: 500; }
   background: #fff;
   border: 1px solid var(--line);
 }
-.event-card.featured { grid-column: span 2; display: grid; grid-template-columns: minmax(300px, .72fr) 1fr; }
+.event-card.featured { grid-column: span 1; display: grid; grid-template-columns: minmax(300px, .72fr) 1fr; }
 .event-image-wrap { background: #1d1714; }
 .event-image-wrap img { width: 100%; height: 100%; display: block; object-fit: cover; }
 .event-card.featured .event-image-wrap img { max-height: 720px; object-position: top center; }
