@@ -192,7 +192,8 @@ h1 em { color: var(--terracotta); font-weight: 500; }
 .event-date { margin: 0 0 18px; font-weight: 700; }
 .event-info p:not(.event-kicker):not(.event-date) { color: var(--muted); }
 .event-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
-.event-meta span {
+.event-meta span,
+.event-meta a {
   padding: 7px 10px;
   border-radius: 999px;
   background: var(--cream);
